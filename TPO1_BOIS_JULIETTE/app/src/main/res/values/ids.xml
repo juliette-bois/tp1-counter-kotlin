@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toast" type="id"></item>
+    <item name="increment" type="id"></item>
+    <item name="textCounter" type="id"></item>
+</resources>
