@@ -1,11 +1,12 @@
 package fr.juliettebois.dmii.tpo1_bois_juliette;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.bumptech.glide.Glide;
 
 import fr.juliettebois.dmii.tpo1_bois_juliette.databinding.ActivityEmailBinding;
 
@@ -22,6 +23,8 @@ public class EmailActivity extends AppCompatActivity {
         showCounter();
         showCalculate();
         sendEmail();
+
+        Glide.with(this).load("https://alternativi.fr/uploads/articles//les-bienfaits-du-chat-sur-lhomme-e96.jpeg").into(binding.imageView);
     }
 
     private void showCounter() {
