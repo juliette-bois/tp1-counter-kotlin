@@ -11,7 +11,6 @@ import fr.juliettebois.dmii.tpo1_bois_juliette.databinding.ActivitySecondBinding
 public class SecondActivity extends AppCompatActivity {
     // variables
     private Integer counter;
-
     private ActivitySecondBinding binding;
 
     @Override
